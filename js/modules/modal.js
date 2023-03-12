@@ -16,11 +16,7 @@ export default class Modal {
     this.containerModal.classList.toggle('ativo');
   }
 
-
-  //adiciona o evento de toggle ao modal
-
   // adiciona o evento de toggle ao modal
-
   eventToggleModal(event) {
     event.preventDefault();
     this.toggleModal();
